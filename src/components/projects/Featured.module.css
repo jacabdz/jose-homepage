@@ -1,0 +1,17 @@
+.article{
+    background-color: #404040;
+    color: #FFFFFF;
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 70%;
+}
