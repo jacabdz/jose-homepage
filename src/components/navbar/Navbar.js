@@ -1,12 +1,14 @@
-import classes from "./Navbar.module.css";
+import "./Navbar.module.css";
 
 function Navbar() {
   return (
     <>
-      <nav className={classes.navbar}>
-        <div>hello</div>
+      <nav>
+        <p>Blog</p>
+        <p>Projects</p> 
+        <p>Jose Cabrera</p>
       </nav>
     </>
   );
 }
-export default Navbar;
+  export default Navbar;

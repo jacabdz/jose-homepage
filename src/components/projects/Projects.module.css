@@ -1,15 +1,28 @@
-.article{
+a {
+    display: flex;
+    align-items: center;
     background-color: #404040;
     color: #FFFFFF;
-    width: 25%;
+    width: 400px;
+    height: 150px;
     margin: 1%;
     padding: 1%;
+    border-radius: 15px;
+    padding: 3%;
+    aspect-ratio: 1 / 1;
+    text-decoration: none;
+}
+
+h2 {
+    padding: 5%;
+}
+p {
+    padding: 5%;
 }
 
 .flexcontainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFFFFF;
     justify-content: center;
     margin: auto;
     margin-top: 5%;
